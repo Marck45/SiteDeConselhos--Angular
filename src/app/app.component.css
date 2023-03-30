@@ -1,0 +1,51 @@
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.conselhos{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    border: 0.3rem solid #fff;
+    border-radius: 15%;
+    padding: 4rem;
+    width: 40%;
+    height: 70%;
+}
+
+.conselhos h1 {
+    font-size: 3.5rem;
+    margin-bottom: 7rem;
+    margin-top: 0.7rem;
+    text-align: center;
+}
+
+.mensagem{
+    text-align: center;
+    font-style: italic;
+    height: 100%;
+}
+
+.button{
+    display: flex;
+    justify-content: space-around;
+    width: 60%;
+    
+}
+
+button{
+    padding: 0.5rem;
+    margin-right: 1rem;
+    border-radius: 5px;
+    border-style:groove;
+    cursor: pointer;
+}
+
+
+
+
+
+
